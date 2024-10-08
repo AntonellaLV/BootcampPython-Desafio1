@@ -1,0 +1,57 @@
+Categoria,Descripcion,Cantidad
+Distribucion por Genero,M,11
+Distribucion por Genero,F,14
+Vacunas Aplicadas por Tipo,AstraZeneca,44.00%
+Vacunas Aplicadas por Tipo,Sputnik,40.00%
+Vacunas Aplicadas por Tipo,Sinopharm,12.00%
+Vacunas Aplicadas por Tipo,Pfizer,4.00%
+Dosis por Jurisdiccion de Residencia,Mendoza,3 dosis
+Dosis por Jurisdiccion de Residencia,Buenos Aires,12 dosis
+Dosis por Jurisdiccion de Residencia,Santiago del Estero,2 dosis
+Dosis por Jurisdiccion de Residencia,Córdoba,3 dosis
+Dosis por Jurisdiccion de Residencia,Entre Ríos,1 dosis
+Dosis por Jurisdiccion de Residencia,Corrientes,1 dosis
+Dosis por Jurisdiccion de Residencia,Formosa,1 dosis
+Dosis por Jurisdiccion de Residencia,San Luis,1 dosis
+Dosis por Jurisdiccion de Residencia,Salta,1 dosis
+Segunda Dosis por Jurisdiccion,Mendoza,3 dosis
+Segunda Dosis por Jurisdiccion,Buenos Aires,8 dosis
+Segunda Dosis por Jurisdiccion,Santiago del Estero,1 dosis
+Segunda Dosis por Jurisdiccion,Entre Ríos,1 dosis
+Segunda Dosis por Jurisdiccion,Corrientes,1 dosis
+Segunda Dosis por Jurisdiccion,Formosa,1 dosis
+Segunda Dosis por Jurisdiccion,San Luis,1 dosis
+Segunda Dosis por Jurisdiccion,Córdoba,2 dosis
+Dosis de Refuerzo para Mayores de 60,,0
+Dosis por Condición de Aplicación,Estratégico,2 dosis
+Dosis por Condición de Aplicación,18 a 59 años CON Factores de Riesgo,9 dosis
+Dosis por Condición de Aplicación,3 a 11 años SIN Factores de Riesgo,1 dosis
+Dosis por Condición de Aplicación,60 o más años,8 dosis
+Dosis por Condición de Aplicación,40 a 49 años SIN Factores de Riesgo,1 dosis
+Dosis por Condición de Aplicación,18 a 39 años SIN Factores de Riesgo,2 dosis
+Dosis por Condición de Aplicación,Salud,1 dosis
+Dosis por Condición de Aplicación,12 a 17 años SIN Factores de Riesgo,1 dosis
+Vacunas Administradas por Fecha,2021-08-14,1 dosis
+Vacunas Administradas por Fecha,2021-08-31,1 dosis
+Vacunas Administradas por Fecha,2021-09-21,1 dosis
+Vacunas Administradas por Fecha,2021-10-19,1 dosis
+Vacunas Administradas por Fecha,2021-09-20,1 dosis
+Vacunas Administradas por Fecha,2021-09-01,1 dosis
+Vacunas Administradas por Fecha,2021-03-28,1 dosis
+Vacunas Administradas por Fecha,2021-07-03,1 dosis
+Vacunas Administradas por Fecha,2021-07-02,1 dosis
+Vacunas Administradas por Fecha,2021-06-30,1 dosis
+Vacunas Administradas por Fecha,2021-09-13,1 dosis
+Vacunas Administradas por Fecha,2021-11-19,1 dosis
+Vacunas Administradas por Fecha,2021-09-15,1 dosis
+Vacunas Administradas por Fecha,2021-07-10,1 dosis
+Vacunas Administradas por Fecha,2021-08-03,2 dosis
+Vacunas Administradas por Fecha,2021-09-27,1 dosis
+Vacunas Administradas por Fecha,2021-05-26,1 dosis
+Vacunas Administradas por Fecha,2021-08-11,1 dosis
+Vacunas Administradas por Fecha,2021-08-22,1 dosis
+Vacunas Administradas por Fecha,2021-10-17,1 dosis
+Vacunas Administradas por Fecha,2021-03-11,1 dosis
+Vacunas Administradas por Fecha,2021-09-23,1 dosis
+Vacunas Administradas por Fecha,2021-07-05,1 dosis
+Vacunas Administradas por Fecha,2021-08-26,1 dosis

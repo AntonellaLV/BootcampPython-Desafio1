@@ -6,9 +6,9 @@ def main():
     # Cargar datos
     data_loader = CargarDatos()
     try:
-        datos = data_loader.cargar_datos('datos_nomivac_parte1.csv')
+        datos = data_loader.cargar_datos('modelo_muestra.csv')
     except FileNotFoundError:
-        print("Error: El archivo 'datos_nomivac_parte1.csv' no fue encontrado.")
+        print("Error: El archivo 'modelo_muestra.csv' no fue encontrado.")
         return
     except Exception as e:
         print(f"Error al cargar datos: {e}")
