@@ -1,10 +1,19 @@
 import csv
 
 class CargarDatos:
-    def cargar_datos(self, archivo1):
-        datos = []
+    def cargar_datos(self, archivo1: str) -> list:
+        """
+        Carga los datos desde un archivo CSV y los devuelve como una lista de diccionarios.
 
-        # Cargar datos del primer archivo
+        Parámetros:
+        archivo1 (str): Ruta del archivo CSV a cargar.
+
+        Retorna:
+        list: Lista de diccionarios donde cada diccionario representa una fila del CSV.
+        """
+        datos = []
+        
+        # Cargar datos del archivo
         with open(archivo1, 'r', encoding='utf-8') as f:
             # Leer encabezados
             encabezados = f.readline().strip().split(',')

@@ -1,3 +1,19 @@
+def validar_genero(genero):
+    """Valida si el género es 'M' o 'F'."""
+    return genero in ["M", "F"]
+
+def validar_grupo_etario(grupo_etario):
+    """Valida si el grupo etario es un número entero válido."""
+    return grupo_etario.isdigit() and 0 <= int(grupo_etario) <= 120
+
+def validar_jurisdiccion(jurisdiccion):
+    """Valida si la jurisdicción no está vacía."""
+    return bool(jurisdiccion)
+
+def validar_vacuna(vacuna):
+    """Valida si el tipo de vacuna no está vacío."""
+    return bool(vacuna)
+
 def detectar_inconsistencias(datos):
     """
     Detecta inconsistencias en los datos y separa los registros válidos de los no válidos.
@@ -17,19 +33,16 @@ def detectar_inconsistencias(datos):
         observacion = []
         
         # Validaciones
-        if linea[0] not in ["M", "F"]:
+        if not validar_genero(linea[0]):
             observacion.append("Género inválido")
         
-        # Ejemplo de validación para grupo etario
-        if len(linea) > 1 and (linea[1] == '' or not linea[1].isdigit()):
+        if len(linea) > 1 and not validar_grupo_etario(linea[1]):
             observacion.append("Grupo etario no válido")
         
-        # Ejemplo de validación para jurisdicción
-        if len(linea) > 2 and linea[2] == '':
+        if len(linea) > 2 and not validar_jurisdiccion(linea[2]):
             observacion.append("Falta jurisdicción de residencia")
         
-        # Ejemplo de validación para vacuna
-        if len(linea) > 3 and linea[3] == '':
+        if len(linea) > 3 and not validar_vacuna(linea[3]):
             observacion.append("Falta tipo de vacuna")
         
         # Guardar datos o inconsistencias

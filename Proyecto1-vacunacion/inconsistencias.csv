@@ -1,0 +1,5 @@
+sexo,grupo_etario,jurisdiccion_residencia,jurisdiccion_residencia_id,depto_residencia,depto_residencia_id,jurisdiccion_aplicacion,jurisdiccion_aplicacion_id,depto_aplicacion,depto_aplicacion_id,fecha_aplicacion,vacuna,cod_dosis_generica,nombre_dosis_generica,condicion_aplicacion,orden_dosis,lote_vacuna,id_persona_dw,OBSERVACIÓN
+M,30-595,Mendoza,1,Capital,0021,Mendoza,50,Capital,700,2021-08-19,Pfizer,1,Dosis 1,Condición X,1,Lote 123,12345,"Edad no válido"
+F,18-29,Corrientess,2,Capital,007,Corrientes,18,Capital,040,2021-10-19,Moderna,2,Dosis 2,Sin especificar,32,Lote 456,67890,"Departamento de residencia no válido"
+MM,80-89,Buenos Aires,50,Capital,007,Mendoza,50,Capital,700,2021-08-26,Sinopharm,2,1ra,18 a 39 años SIN Factores de Riesgo,1,202106B1335,3190895.0,"Sexo no válido"
+F,30-39,Corrientes,18,Capital,021,Corrientes,18,Capital,023,2021-10-19,Sputnik,1,1ra,3 a 11 años SIN Factores de Riesgo,1,202108B2087,14125645557.0,"Jurisdicción de residencia no válido"

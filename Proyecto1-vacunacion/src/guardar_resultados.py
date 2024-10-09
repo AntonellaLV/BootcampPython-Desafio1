@@ -1,12 +1,35 @@
 import csv
 
 def guardar_inconsistencias(inconsistencias, archivo_salida):
-    with open(archivo_salida, 'w', encoding='utf-8') as f:
-        f.write("sexo,grupo_etario,jurisdiccion_residencia,jurisdiccion_residencia_id,depto_residencia,depto_residencia_id,jurisdiccion_aplicacion,jurisdiccion_aplicacion_id,depto_aplicacion,depto_aplicacion_id,fecha_aplicacion,vacuna,cod_dosis_generica,nombre_dosis_generica,condicion_aplicacion,orden_dosis,lote_vacuna,id_persona_dw,OBSERVACIÓN\n")
+    """
+    Guarda las inconsistencias en un archivo CSV.
+
+    Parámetros:
+    inconsistencias (list): Lista de registros con inconsistencias.
+    archivo_salida (str): Ruta del archivo donde se guardarán las inconsistencias.
+    """
+    with open(archivo_salida, 'w', encoding='utf-8', newline='') as f:
+        escritor = csv.writer(f)
+        escritor.writerow(["sexo", "grupo_etario", "jurisdiccion_residencia", 
+                           "jurisdiccion_residencia_id", "depto_residencia", 
+                           "depto_residencia_id", "jurisdiccion_aplicacion", 
+                           "jurisdiccion_aplicacion_id", "depto_aplicacion", 
+                           "depto_aplicacion_id", "fecha_aplicacion", 
+                           "vacuna", "cod_dosis_generica", "nombre_dosis_generica", 
+                           "condicion_aplicacion", "orden_dosis", "lote_vacuna", 
+                           "id_persona_dw", "OBSERVACIÓN"])
+        
         for linea in inconsistencias:
-            f.write(",".join(linea) + "\n")
+            escritor.writerow(linea)  # Usa writerow para manejar automáticamente las comas
 
 def guardar_estadisticas_en_csv(estadisticas, nombre_archivo):
+    """
+    Guarda las estadísticas en un archivo CSV.
+
+    Parámetros:
+    estadisticas (dict): Diccionario con las estadísticas a guardar.
+    nombre_archivo (str): Ruta del archivo donde se guardarán las estadísticas.
+    """
     with open(nombre_archivo, mode='w', newline='', encoding='utf-8') as archivo_csv:
         escritor = csv.writer(archivo_csv)
         escritor.writerow(['Categoria', 'Descripcion', 'Cantidad'])
