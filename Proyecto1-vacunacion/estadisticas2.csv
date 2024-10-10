@@ -3,8 +3,6 @@ Distribucion por Genero,M,6874704
 Distribucion por Genero,F,7890037
 Distribucion por Genero,S.I.,30967
 Distribucion por Genero,X,131
-Distribucion por Genero,femenino,1
-Distribucion por Genero,MASCULINO,1
 Vacunas Aplicadas por Tipo,Moderna ARNm 020 mg mL,31.86%
 Vacunas Aplicadas por Tipo,Pfizer,32.08%
 Vacunas Aplicadas por Tipo,Moderna 010 mg mL,2.01%
@@ -69,7 +67,7 @@ Segunda Dosis por Jurisdiccion,Formosa,24225 dosis
 Segunda Dosis por Jurisdiccion,Catamarca,29511 dosis
 Segunda Dosis por Jurisdiccion,Santa Cruz,14365 dosis
 Segunda Dosis por Jurisdiccion,San Juan,35460 dosis
-Dosis de Refuerzo para Mayores de 60,,0
+Dosis de Refuerzo para Mayores de 60,Refuerzo,1089012
 Dosis por Condición de Aplicación,SIN Factores de Riesgo,5426271 dosis
 Dosis por Condición de Aplicación,18 a 39 años SIN Factores de Riesgo,1637955 dosis
 Dosis por Condición de Aplicación,Salud,375262 dosis
