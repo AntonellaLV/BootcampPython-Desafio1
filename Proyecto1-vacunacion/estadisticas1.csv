@@ -3,8 +3,6 @@ Distribucion por Genero,M,6884810
 Distribucion por Genero,F,7879043
 Distribucion por Genero,S.I.,31848
 Distribucion por Genero,X,138
-Distribucion por Genero,MASCULINO,1
-Distribucion por Genero,FEMENINO,1
 Vacunas Aplicadas por Tipo,Sinopharm,9.28%
 Vacunas Aplicadas por Tipo,Moderna ARNm 020 mg mL,32.06%
 Vacunas Aplicadas por Tipo,Pfizer,31.84%
@@ -69,7 +67,7 @@ Segunda Dosis por Jurisdiccion,Corrientes,89661 dosis
 Segunda Dosis por Jurisdiccion,Chubut,27058 dosis
 Segunda Dosis por Jurisdiccion,S.I.,28203 dosis
 Segunda Dosis por Jurisdiccion,Tierra del Fuego,5869 dosis
-Dosis de Refuerzo para Mayores de 60,,0
+Dosis de Refuerzo para Mayores de 60,741088 dosis
 Dosis por Condición de Aplicación,18 a 39 años SIN Factores de Riesgo,1623662 dosis
 Dosis por Condición de Aplicación,40 a 49 años SIN Factores de Riesgo,569341 dosis
 Dosis por Condición de Aplicación,50 a 59 años SIN Factores de Riesgo,397385 dosis
@@ -78,14 +76,11 @@ Dosis por Condición de Aplicación,18 a 59 años CON Factores de Riesgo,1753774
 Dosis por Condición de Aplicación,CON Factores de Riesgo,1369823 dosis
 Dosis por Condición de Aplicación,60 o más años,1070920 dosis
 Dosis por Condición de Aplicación,3 a 11 años SIN Factores de Riesgo,825154 dosis
-Dosis por Condición de Aplicación,Salud,379024 dosis
-Dosis por Condición de Aplicación,Estratégico,362064 dosis
 Dosis por Condición de Aplicación,12 a 17 años SIN Factores de Riesgo,514354 dosis
 Dosis por Condición de Aplicación,Otros,219131 dosis
 Dosis por Condición de Aplicación,12 a 17 años CON Factores de Riesgo,164705 dosis
 Dosis por Condición de Aplicación,Viaje,8875 dosis
 Dosis por Condición de Aplicación,3 a 11 años CON Factores de Riesgo,34855 dosis
-Dosis por Condición de Aplicación,Embarazo,15305 dosis
 Vacunas Administradas por Fecha,2022-02-01,121044 dosis
 Vacunas Administradas por Fecha,2022-01-14,148860 dosis
 Vacunas Administradas por Fecha,2022-01-26,119999 dosis
