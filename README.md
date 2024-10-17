@@ -67,9 +67,6 @@ condicion_aplicacion: Condición que justifica la aplicación de la dosis.
 lote_vacuna: Lote de la vacuna administrada.
 id_persona_dw: Identificador único de la persona.
 
-Nota:
-NO se incluyen los archivos de entrada en la entrega como fue solicitado, pero el código está diseñado para procesar un conjunto de datos con la estructura mencionada.
-
 Reutilización del Proyecto para Análisis de Otros Conjuntos de Datos
 
 Generalización del Código:
