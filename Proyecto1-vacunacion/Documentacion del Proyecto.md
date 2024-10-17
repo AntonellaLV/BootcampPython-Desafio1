@@ -1,11 +1,11 @@
 Documentación del Proyecto de Estadísticas de Vacunación
 
-Introducción
+Introducción:
 Este proyecto tiene como objetivo analizar los datos de vacunación mediante una clase de estadísticas y funciones auxiliares para manejar registros de vacunación y generar reportes en formato CSV. El enfoque está en manejar flujos de datos (streaming) para permitir el procesamiento de grandes volúmenes de datos.
 
-Estructura del Código
+Estructura del Código:
 
-Clase Estadisticas
+Clase Estadisticas:
 La clase Estadisticas es responsable de generar estadísticas a partir de un flujo de datos de vacunación. Sus métodos principales son:
 
 generar_estadisticas(self, datos_stream: iter) -> dict: Este método recibe un iterable de registros de vacunación y genera un diccionario con diversas estadísticas relacionadas con la vacunación. Los resultados incluyen:
@@ -29,7 +29,7 @@ Menores de 18
 30-59
 60 y más
 
-Funciones Auxiliares
+Funciones Auxiliares:
 Además de la clase Estadisticas, se incluyen varias funciones auxiliares para el manejo de archivos:
 
 guardar_inconsistencias(inconsistencias, archivo_salida): Esta función toma una lista de registros con errores y los guarda en un archivo CSV. Se incluyen encabezados para facilitar la comprensión de los datos.
@@ -50,7 +50,7 @@ Este proyecto permite un análisis eficiente de los datos de vacunación, utiliz
 
 ************************************************************************************************************************************
 
-Conjunto de Datos Utilizados
+Conjunto de Datos Utilizados:
 
 - Descripción: El conjunto de datos utilizado para el procesamiento de la vacunación incluye información sobre las dosis aplicadas, el sexo, grupo etario, jurisdicción de residencia, condición de aplicación, entre otros.
 
